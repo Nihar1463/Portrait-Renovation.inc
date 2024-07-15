@@ -1,0 +1,35 @@
+.service {
+  width: 100%;
+  /* height: 500vh; */
+  /* margin: 70px 0; */
+  /* background-color: aqua; */
+  padding: 70px 135px;
+
+
+}
+.service_info {
+  height: 202px;
+  width: 100%;
+  /* background-color: red; */
+  text-align: center;
+  margin-bottom: 40px;
+}
+.service_info h1 {
+  height: 70px;
+  line-height: 69.57px;
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.service_info .pr1 {
+  height: 54px;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 450;
+  color: #505050;
+}
+@media(min-width:1441px){
+  .service{
+    padding:70px 171px;
+  }
+}

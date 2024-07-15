@@ -1,0 +1,69 @@
+.level_div {
+  width: 100%;
+  padding: 70px 135px;
+}
+.level_div .box {
+  width: 770px;
+  height: 136px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.box h2 {
+  font-size: 55px;
+  line-height: 69.57px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.box p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 450;
+  color: #505050;
+}
+.cards_LVL {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px 30px;
+  padding-top: 40px;
+}
+.btn {
+  width: 820px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-top: 40px;
+  justify-content: center;
+}
+.btn .bt {
+  width: 400px;
+  height: 60px;
+  background-color: white;
+  color: black;
+  padding: 16.5px 89px;
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  /* letter-spacing: 6%; */
+  cursor: pointer;
+  transition: 0.3s ease-out;
+
+
+}
+.btn .bt:hover{
+  transform: translateY(-5px) scale(1.05);
+
+}
+.btn .bt:nth-child(2) {
+  background-color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
+}
+@media (min-width: 1441px) {
+  .level_div {
+    padding: 70px 171px;
+  }
+}
