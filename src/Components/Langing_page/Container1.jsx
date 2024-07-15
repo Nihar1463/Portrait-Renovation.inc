@@ -19,7 +19,7 @@ const Container1 = () => {
           <img src={Logo} alt="" />
         </div>
         <div className="navbar1">
-          <a href="#home">Home</a>
+          <a href="#">Home</a>
           <a href="#">About Us</a>
           <a href="#service">Sevices</a>
           <a href="#">Portfolio</a>
